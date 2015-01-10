@@ -55,8 +55,8 @@ blogContent.read(function(err,blogPosts){
        latestPosts: latestPosts,
      }) 
 
-      sendEmail(firstName + " " + lastName, emailAddress, "Alice Kindheart", "moonstonecowgirl@gmail.com", "I learned how to send spam!!", customizedTemplate);
-//   console.log(customizedTemplate);
+   sendEmail(firstName + " " + lastName, emailAddress, "Alice Kindheart", "moonstonecowgirl@gmail.com", "I learned how to send spam!!", customizedTemplate);
+  // console.log(customizedTemplate);
   })
 
  
